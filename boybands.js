@@ -1,4 +1,4 @@
-//Loop through the two arrays provided (bands and vegetables) and output each element in the arrays into their corresponding HTML <div> element. 
+ //Loop through the two arrays provided (bands and vegetables) and output each element in the arrays into their corresponding HTML <div> element. 
 //Ensure that each item is in a block element (e.g. li, div, p. etc...)
 
 var bands = ["Boyz II Men", "NSync", "New Kids on the Block", "98 Degrees", "One Direction"];
@@ -23,7 +23,7 @@ var veggieElement = document.getElementById("vegetables");
 for (var i = 0; i < loopCount; i++) {
 
   // Add the band names into the correct <div>
-  bandElement.innerHTML += "<div>" + bands[i] + "</div>";
+  bandElement.innerHTML += "<div>" + bands[i] + "</div>" + "</br>";
 
 
   // Add the veggie names into the correct <div>
